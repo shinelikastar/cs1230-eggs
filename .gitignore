@@ -1,0 +1,11 @@
+.DS_Store
+*.app
+.qmake.stash
+final.pro.user
+*.o
+moc_mainwindow.cpp
+moc_view.cpp
+qrc_resources.cpp
+ui_mainwindow.h
+moc_databinding.cpp
+moc_*

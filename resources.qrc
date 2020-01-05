@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file alias="default.frag">shaders/shader.frag</file>
+        <file alias="default.vert">shaders/shader.vert</file>
+        <file>dof_h.frag</file>
+        <file>dof_v.frag</file>
+        <file>quad.vert</file>
+    </qresource>
+</RCC>

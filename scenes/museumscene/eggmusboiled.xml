@@ -1,0 +1,276 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.7"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="0" y="0" z="3"/>
+		<focus x="0" y="0" z="0"/>
+		<up x="0" y="1" z="0"/>
+		<heightangle v="30"/>
+	</cameradata>
+
+    <lightdata>
+        <id v="0"/>
+        <position x="3" y="3" z="3"/>
+        <color r="1" g="1" b="1"/>
+    </lightdata>
+
+	<object type="tree" name="root">
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/table.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/wood.jpg" u="10" v="10"/>
+                <diffuse r="0.64" g="0.16" b="0.16"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/plate.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/porcelaintex.jpg" u="5" v="5"/>
+                <diffuse r="0.8" g="0.8" b="0.8"/>
+                <specular r="0.`" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/holder.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggtex.jpg" u="1" v="1"/>
+                <diffuse r="1.0" g="0.8" b="0.3725"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/boiled.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/hardeggtex.jpg" u="1" v="1"/>
+                <diffuse r="1.0" g="0.961" b="0.7647"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/ropes1.obj">
+                <diffuse r="1.0" g="0.843" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/ropes2.obj">
+                <diffuse r="1.0" g="0.843" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/ropes3.obj">
+                <diffuse r="1.0" g="0.843" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/ropes4.obj">
+                <diffuse r="1.0" g="0.843" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/plane0.obj">
+                <diffuse r="0.5" g="0.5" b="0.5"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex.jpg" u="5" v="5"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/plane1.obj">
+                <diffuse r="0.5" g="0.5" b="0.5"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex.jpg" u="5" v="5"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/plane2.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex.jpg" u="5" v="5"/>
+                <diffuse r="0.5" g="0.5" b="0.5"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/plane3.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex.jpg" u="5" v="5"/>
+                <diffuse r="0.5" g="0.5" b="0.5"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/floor.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/floortex.jpg" u="10" v="10"/>
+                <diffuse r="1.0" g="0.8941" b="0.7862"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/ceiling.obj">
+                <diffuse r="1.0" g="0.8941" b="0.7862"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/column1.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex2.jpg" u="1" v="1"/>
+                <diffuse r=".941176" g="1.0" b="1.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/column2.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex2.jpg" u="1" v="1"/>
+                <diffuse r=".941176" g="1.0" b="1.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/classiccol.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/marbtex2.jpg" u="1" v="1"/>
+                <diffuse r=".941176" g="1.0" b="1.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/bigframe1.obj">
+                <diffuse r=".8549" g=".64705" b=".12549"/>
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/gold.jpg" u="10" v="10"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/bigframe1_pic.obj">
+                <diffuse r=".8549" g=".64705" b=".12549"/>
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggpainting1.jpg" u="1" v="1"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/bigframe2.obj">
+                <diffuse r=".8549" g=".64705" b=".12549"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/gold.jpg" u="10" v="10"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/bigframe2_pic.obj">
+                <diffuse r=".8549" g=".64705" b=".12549"/>
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggpainting2.jpg" u="1" v="1"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/bigframe3.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/gold.jpg" u="10" v="10"/>
+                <diffuse r=".8549" g=".64705" b=".12549"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/bigframe3_pic.obj">
+                <diffuse r=".8549" g=".64705" b=".12549"/>
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggpainting3.jpg" u="1" v="1"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/egghang.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/ornatetex1.jpg" u="5" v="5"/>
+                <diffuse r=".5019" g=".5019" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/chicken.obj">
+             <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/chickenfeatherstex.jpg" u="10" v="10"/>
+                <diffuse r=".5019" g=".5019" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/eggcrate.obj">
+            <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/cardboardtex.jpg" u="10" v="10"/>
+                <diffuse r=".5019" g=".5019" b="0.0"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/gud_yolk.obj">
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggtex.jpg" u="1" v="1"/>
+                <diffuse r="1.0" g="0.8" b="0.3725"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/gud_white.obj">
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggwhitetex.jpg" u="1" v="1"/>
+                <diffuse r="1.0" g="0.961" b="0.7647"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/paintingframe1.obj">
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/woodframetex.jpg" u="10" v="10"/>
+                <diffuse r="1.0" g="0.961" b="0.7647"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/paintingframe1_pic.obj">
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/bigegg2.jpg" u="1" v="1"/>
+                <diffuse r="1.0" g="0.961" b="0.7647"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/paintingframe2.obj">
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/woodframetex.jpg" u="10" v="10"/>
+                <diffuse r="1.0" g="0.961" b="0.7647"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="0" z="0"/>
+            <object type="primitive" name="mesh" meshfile="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/museumscene/paintingframe2_pic.obj">
+                <texture file="/Users/ericelliott/cs/cs1230/final/cs1230-final/scenes/textures/eggpainting4.jpg" u="1" v="1"/>
+                <diffuse r="1.0" g="0.961" b="0.7647"/>
+                <specular r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+	</object>
+    
+
+</scenefile>
